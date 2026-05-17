@@ -1,0 +1,14 @@
+{
+  "name": "opentyut",
+  "version": "1.0.0",
+  "description": "开放式太原理工大学计算机学习资源站",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
