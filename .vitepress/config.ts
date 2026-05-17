@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'openTyut',
   description: '开放式太原理工大学计算机学习资源站',
   lang: 'zh-CN',
+  base: '/openTyut/',
 
   themeConfig: {
     logo: '/logo.svg',
