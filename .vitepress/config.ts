@@ -29,11 +29,19 @@ export default defineConfig({
   ignoreDeadLinks: true,
 
   head: [
+    // Open Graph
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'OpenTYUT' }],
     ['meta', { property: 'og:image', content: 'https://opentyut.github.io/tyut-open-source-community.png' }],
+    // Twitter Card
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:image', content: 'https://opentyut.github.io/tyut-open-source-community.png' }],
+    // 站长验证
+    ['meta', { name: 'msvalidate.01', content: 'DD58EC466D8ECA5F11ED62FAD4113FD3' }],
+    ['meta', { name: 'google-site-verification', content: 'LrBwzL87HM83XZbpxAcNov-otl7I0YDB95alRmC1S1U' }],
+    // 51.la 访问统计
+    ['script', { charset: 'UTF-8', id: 'LA_COLLECT', src: '//sdk.51.la/js-sdk-pro.min.js' }],
+    ['script', {}, "LA.init({id:'LCICN2wUJ6UAJI93',ck:'LCICN2wUJ6UAJI93'})"],
   ],
 
   srcExclude: ['**/README.md', '**/CONTRIBUTING.md', '**/_template.md', '**/docs/**'],
